@@ -45,38 +45,41 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_circulo"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:id="@+id/textInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="46dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_circulo_edit"
+            android:inputType="numberDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/radio"
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button_area"
         android:layout_width="126dp"
         android:layout_height="47dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="20dp"
         android:text="@string/area"
-        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button_perimetro"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/input_circulo"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button_perimetro"
         android:layout_width="126dp"
         android:layout_height="47dp"
         android:layout_marginStart="20dp"
@@ -84,19 +87,33 @@
         android:layout_marginEnd="64dp"
         android:text="@string/perimetro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintStart_toEndOf="@+id/button_area"
+        app:layout_constraintTop_toBottomOf="@+id/input_circulo"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text_operation_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="173dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="180dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/button_area" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="113dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="33dp"
+        android:entries="@array/medidas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/input_circulo"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
