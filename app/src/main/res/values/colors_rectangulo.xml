@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--TEXT-->
-    <color name="m_infoWidth_text_rectangulo"></color>
-    <color name="m_infoHeight_text_rectangulo"></color>
-    <color name="m_width_text_rectangulo"></color>
-    <color name="m_height_text_rectangulo"></color>
-    <color name="m_operate_text_rectangulo"></color>
-    <color name="m_infoResult_text_rectangulo"></color>
-    <color name="m_result_text_rectangulo"></color>
+    <color name="m_infoWidth_text_rectangulo">@color/black</color>
+    <color name="m_infoHeight_text_rectangulo">@color/black</color>
+    <color name="m_width_text_rectangulo">@color/black</color>
+    <color name="m_height_text_rectangulo">@color/black</color>
+    <color name="m_operate_text_rectangulo">@color/white</color>
+    <color name="m_infoResult_text_rectangulo">@color/black</color>
+    <color name="m_result_text_rectangulo">@color/black</color>
+    <!--HINT-->
+    <color name="m_width_hint_rectangulo">?attr/colorPrimary</color>
+    <color name="m_height_hint_rectangulo">?attr/colorPrimary</color>
     <!--BACKGROUND-->
-    <color name="m_infoWidth_bg_rectangulo">?attr/colorOnPrimary</color>
-    <color name="m_infoHeight_bg_rectangulo">?attr/colorOnPrimary</color>
-    <color name="m_width_bg_rectangulo">?attr/colorOnPrimary</color>
-    <color name="m_height_bg_rectangulo">?attr/colorOnPrimary</color>
+    <color name="m_infoWidth_bg_rectangulo">@color/white</color>
+    <color name="m_infoHeight_bg_rectangulo">@color/white</color>
+    <color name="m_width_bg_rectangulo">@color/white</color>
+    <color name="m_height_bg_rectangulo">@color/white</color>
     <color name="m_operate_bg_gradientUp_rectangulo">?attr/colorOnSecondary</color>
     <color name="m_operate_bg_gradientMiddle_rectangulo">?attr/colorPrimary</color>
     <color name="m_operate_bg_gradientDown_rectangulo">?attr/colorSecondary</color>
-    <color name="app_bg_rectangule">?attr/colorOnPrimary</color>
-    <color name="m_infoResult_bg_rectangulo">?attr/colorOnPrimary</color>
-    <color name="m_result_bg_rectangulo">?attr/colorOnPrimary</color>
+    <color name="app_bg_rectangule">@color/white</color>
+    <color name="m_infoResult_bg_rectangulo">@color/white</color>
+    <color name="m_result_bg_rectangulo">@color/white</color>
     
     <!--BASIS COLORS-->
     <color name="White_rectangulo">#FFFFFF</color>

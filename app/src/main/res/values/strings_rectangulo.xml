@@ -5,6 +5,7 @@
     <string name="m_infoHeight_text_rectangulo">Largo</string>
     <string name="m_operate_text_rectangulo">Operar</string>
     <string name="m_infoResult_text_rectangulo">Resultado</string>
+    <string name="m_image_text_rectangulo">Imagen</string>
     <!--HINT-->
     <string name="m_width_hint_rectangulo">Ingrese Ancho</string>
     <string name="m_height_hint_rectangulo">Ingrese Largo</string>

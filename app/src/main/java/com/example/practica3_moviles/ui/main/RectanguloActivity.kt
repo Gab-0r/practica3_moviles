@@ -5,12 +5,16 @@ import android.os.Bundle
 import com.example.practica3_moviles.databinding.ActivityRectanguloBinding
 
 class RectanguloActivity : AppCompatActivity() {
-    private lateinit var rectanguloActivity: ActivityRectanguloBinding
+    private lateinit var rectanguloBinding: ActivityRectanguloBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        rectanguloActivity = ActivityRectanguloBinding.inflate(layoutInflater)
-        val view = rectanguloActivity.root
+        rectanguloBinding = ActivityRectanguloBinding.inflate(layoutInflater)
+        val view = rectanguloBinding.root
         setContentView(view)
+
+        with(rectanguloBinding){
+            resultTextView.text = ""
+        }
     }
 }
