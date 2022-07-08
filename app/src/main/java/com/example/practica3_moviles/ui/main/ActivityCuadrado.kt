@@ -17,5 +17,17 @@ class ActivityCuadrado : AppCompatActivity() {
 
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
+        viewModel.cuadrado_areaDone.observe(this){
+            cuadradoBinding.textViewResultArea.text = "Área del cuadrado: " + it.toString() + " m2"
+        }
+
+        viewModel.cuadrado_perimetroDone.observe(this){
+            cuadradoBinding.textViewResultPer.text = "Perímetro del cuadrado: " + it.toString() + " m"
+        }
+
+        cuadradoBinding.buttonCalcCuadrado.setOnClickListener(){
+            viewModel.setCuadradoLado(cuadradoBinding.textInputCuadradoLado.text.toString().toFloat())
+            viewModel.calcCuadrado()
+        }
     }
 }
