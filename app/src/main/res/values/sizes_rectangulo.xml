@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TEXT-->
+    <dimen name="info_text_rectangulo">16sp</dimen>
+    <dimen name="input_text_rectangulo">18sp</dimen>
+    <dimen name="m_infoWidth_text_rectangulo">@dimen/info_text_rectangulo</dimen>
+    <dimen name="m_infoHeight_text_rectangulo">@dimen/info_text_rectangulo</dimen>
+    <dimen name="m_width_text_rectangulo">@dimen/input_text_rectangulo</dimen>
+    <dimen name="m_height_text_rectangulo">@dimen/input_text_rectangulo</dimen>
+    <dimen name="m_operate_text_rectangulo">@dimen/input_text_rectangulo</dimen>
+    <dimen name="m_infoResult_text_rectangulo">@dimen/info_text_rectangulo</dimen>
+    <dimen name="m_result_text_rectangulo">@dimen/input_text_rectangulo</dimen>
+    <!--HEIGHT-->
+    <dimen name="inputNumber_height_rectangulo">48dp</dimen>
+    <dimen name="m_image_height_rectangulo">300dp</dimen>
+    <dimen name="m_width_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
+    <dimen name="m_height_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
+    <dimen name="m_result_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
+    <!--WIDTH-->
+    <dimen name="inputNumber_width_rectangulo">300dp</dimen>
+    <dimen name="m_image_width_rectangulo">300dp</dimen>
+    <dimen name="m_width_width_rectangulo">@dimen/inputNumber_width_rectangulo</dimen>
+    <dimen name="m_height_width_rectangulo">@dimen/inputNumber_width_rectangulo</dimen>
+    <dimen name="m_result_width_rectangulo">@dimen/inputNumber_width_rectangulo</dimen>
+    <!--MARGINS-->
+    <dimen name="smallSeperation_marginUP_rectangulo">32dp</dimen>
+    <dimen name="closeSeperation_marginUP_rectangulo">0dp</dimen>
+    <dimen name="m_image_marginUP_rectangulo">32dp</dimen>
+    <dimen name="m_infoWidth_marginUP_rectangulo">@dimen/smallSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_infoHeight_marginUP_rectangulo">@dimen/smallSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_width_marginUP_rectangulo">@dimen/closeSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_height_marginUP_rectangulo">@dimen/closeSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_infoResult_marginUP_rectangulo">@dimen/smallSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_result_marginUP_rectangulo">@dimen/closeSeperation_marginUP_rectangulo</dimen>
+    <dimen name="m_operate_marginUP_rectangulo">@dimen/smallSeperation_marginUP_rectangulo</dimen>
+</resources>

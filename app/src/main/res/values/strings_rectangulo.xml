@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TEXT-->
+    <string name="m_infoWidth_text_rectangulo">Ancho</string>
+    <string name="m_infoHeight_text_rectangulo">Largo</string>
+    <string name="m_operate_text_rectangulo">Operar</string>
+    <string name="m_infoResult_text_rectangulo">Resultado</string>
+    <!--HINT-->
+    <string name="m_width_hint_rectangulo">Ingrese Ancho</string>
+    <string name="m_height_hint_rectangulo">Ingrese Largo</string>
+</resources>

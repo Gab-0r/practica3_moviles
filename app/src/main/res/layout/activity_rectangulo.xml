@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_rectangule"
+    tools:context=".ui.main.RectanguloActivity">
+
+    <Button
+        android:id="@+id/operate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_operate_marginUP_rectangulo"
+        android:text="@string/m_operate_text_rectangulo"
+        android:textSize="@dimen/m_operate_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result_textView" />
+
+    <ImageView
+        android:id="@+id/image_imageView_rectangulo"
+        android:layout_width="@dimen/m_image_width_rectangulo"
+        android:layout_height="@dimen/m_image_height_rectangulo"
+        android:layout_marginTop="@dimen/m_image_marginUP_rectangulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/image_rectangulo" />
+
+    <EditText
+        android:id="@+id/width_editText"
+        android:layout_width="@dimen/m_width_width_rectangulo"
+        android:layout_height="@dimen/m_width_height_rectangulo"
+        android:layout_marginTop="@dimen/m_width_marginUP_rectangulo"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/m_width_hint_rectangulo"
+        android:inputType="numberSigned"
+        android:textSize="@dimen/m_width_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoWidth_textView" />
+
+    <EditText
+        android:id="@+id/height_editText"
+        android:layout_width="@dimen/m_height_width_rectangulo"
+        android:layout_height="@dimen/m_height_height_rectangulo"
+        android:layout_marginTop="@dimen/m_height_marginUP_rectangulo"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/m_height_hint_rectangulo"
+        android:inputType="numberSigned"
+        android:textSize="@dimen/m_height_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoHeight_textView" />
+
+    <TextView
+        android:id="@+id/infoWidth_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoWidth_marginUP_rectangulo"
+        android:text="@string/m_infoWidth_text_rectangulo"
+        android:textSize="@dimen/m_infoWidth_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_imageView_rectangulo" />
+
+    <TextView
+        android:id="@+id/infoHeight_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoHeight_marginUP_rectangulo"
+        android:text="@string/m_infoHeight_text_rectangulo"
+        android:textSize="@dimen/m_infoHeight_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/width_editText" />
+
+    <TextView
+        android:id="@+id/infoResult_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoResult_marginUP_rectangulo"
+        android:text="@string/m_infoResult_text_rectangulo"
+        android:textSize="@dimen/m_infoResult_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/height_editText" />
+
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_width="@dimen/m_result_width_rectangulo"
+        android:layout_height="@dimen/m_result_height_rectangulo"
+        android:layout_marginTop="@dimen/m_result_marginUP_rectangulo"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="@dimen/m_result_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoResult_textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

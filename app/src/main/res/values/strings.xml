@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">practica3_moviles</string>
     <string name="string_titleApp">Calculadora de áreas y perimetros</string>
+    <string name="rectangulo_button_text">Rectángulo</string>
 </resources>
