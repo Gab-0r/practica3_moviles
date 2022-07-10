@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--APP COLORS-->
+    <color name="app_colorPrimary">#FF5D4037</color>
+    <color name="app_colorSecundary">#FFFF5722</color>
+    <color name="app_colorOnSecundary">@color/black</color>
     <!--TEXT-->
     <color name="m_infoWidth_text_rectangulo">@color/black</color>
     <color name="m_infoHeight_text_rectangulo">@color/black</color>
@@ -9,20 +13,21 @@
     <color name="m_infoResult_text_rectangulo">@color/black</color>
     <color name="m_result_text_rectangulo">@color/black</color>
     <!--HINT-->
-    <color name="m_width_hint_rectangulo">?attr/colorPrimary</color>
-    <color name="m_height_hint_rectangulo">?attr/colorPrimary</color>
+    <color name="m_width_hint_rectangulo">@color/app_colorPrimary</color>
+    <color name="m_height_hint_rectangulo">@color/app_colorPrimary</color>
     <!--BACKGROUND-->
-    <color name="m_infoWidth_bg_rectangulo">@color/white</color>
-    <color name="m_infoHeight_bg_rectangulo">@color/white</color>
-    <color name="m_width_bg_rectangulo">@color/white</color>
-    <color name="m_height_bg_rectangulo">@color/white</color>
-    <color name="m_operate_bg_gradientUp_rectangulo">?attr/colorOnSecondary</color>
-    <color name="m_operate_bg_gradientMiddle_rectangulo">?attr/colorPrimary</color>
-    <color name="m_operate_bg_gradientDown_rectangulo">?attr/colorSecondary</color>
+    <color name="info_bg_rectangulo">@color/white</color>
+    <color name="input_bg_rectangulo">@color/white</color>
+    <color name="m_operate_bg_pressedSolid_rectangulo">@color/app_colorSecundary</color>
+    <color name="m_operate_bg_releasedGradientUp_rectangulo">@color/app_colorOnSecundary</color>
+    <color name="m_operate_bg_releasedGradientMiddle_rectangulo">@color/app_colorPrimary</color>
+    <color name="m_operate_bg_releasedGradientDown_rectangulo">@color/app_colorSecundary</color>
     <color name="app_bg_rectangule">@color/white</color>
-    <color name="m_infoResult_bg_rectangulo">@color/white</color>
-    <color name="m_result_bg_rectangulo">@color/white</color>
-    
+    <!--STROKE-->
+    <color name="info_stroke_rectangulo">@color/app_colorSecundary</color>
+    <color name="input_stroke_rectangulo">@color/app_colorPrimary</color>
+    <color name="m_operate_stroke_pressed_rectangulo">@color/app_colorPrimary</color>
+    <color name="m_operate_stroke_released_rectangulo">@color/black</color>
     <!--BASIS COLORS-->
     <color name="White_rectangulo">#FFFFFF</color>
     <color name="Ivory_rectangulo">#FFFFF0</color>

@@ -17,9 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         with(mainBinding) {
             rectanguloButton.setOnClickListener {
-                val RectanguloIntent = Intent(this@MainActivity, RectanguloActivity::class.java)
-                startActivity(RectanguloIntent)
-                finish()
+                val rectanguloIntent = Intent(this@MainActivity, RectanguloActivity::class.java)
+                startActivity(rectanguloIntent)
             }
         }
     }

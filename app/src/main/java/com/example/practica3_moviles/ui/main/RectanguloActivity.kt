@@ -14,7 +14,7 @@ class RectanguloActivity : AppCompatActivity() {
         setContentView(view)
 
         with(rectanguloBinding){
-            resultTextView.text = ""
+            //resultTextView.text = ""
         }
     }
 }

@@ -12,12 +12,12 @@
     <dimen name="m_result_text_rectangulo">@dimen/input_text_rectangulo</dimen>
     <!--HEIGHT-->
     <dimen name="inputNumber_height_rectangulo">48dp</dimen>
-    <dimen name="m_image_height_rectangulo">300dp</dimen>
+    <dimen name="m_image_height_rectangulo">200dp</dimen>
     <dimen name="m_width_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
     <dimen name="m_height_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
     <dimen name="m_result_height_rectangulo">@dimen/inputNumber_height_rectangulo</dimen>
     <!--WIDTH-->
-    <dimen name="inputNumber_width_rectangulo">300dp</dimen>
+    <dimen name="inputNumber_width_rectangulo">200dp</dimen>
     <dimen name="m_image_width_rectangulo">300dp</dimen>
     <dimen name="m_width_width_rectangulo">@dimen/inputNumber_width_rectangulo</dimen>
     <dimen name="m_height_width_rectangulo">@dimen/inputNumber_width_rectangulo</dimen>
