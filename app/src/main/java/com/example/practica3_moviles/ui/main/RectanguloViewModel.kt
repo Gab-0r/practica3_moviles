@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class MainViewModel: ViewModel() {
+class RectanguloViewModel: ViewModel() {
     fun getResult(width: String, height: String) {
         val widthNumeric = width.toFloat()
         val heightNumeric = height.toFloat()

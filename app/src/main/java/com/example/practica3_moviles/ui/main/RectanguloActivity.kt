@@ -7,7 +7,7 @@ import com.example.practica3_moviles.databinding.ActivityRectanguloBinding
 
 class RectanguloActivity : AppCompatActivity() {
     private lateinit var rectanguloBinding: ActivityRectanguloBinding
-    private lateinit var mainViewModel: MainViewModel
+    private lateinit var rectanguloViewModel: RectanguloViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,15 +15,15 @@ class RectanguloActivity : AppCompatActivity() {
         val view = rectanguloBinding.root
         setContentView(view)
 
-        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        rectanguloViewModel = ViewModelProvider(this)[RectanguloViewModel::class.java]
 
         with(rectanguloBinding){
-            mainViewModel.perimetroLiveData_rectangulo.observe(this@RectanguloActivity){
+            rectanguloViewModel.perimetroLiveData_rectangulo.observe(this@RectanguloActivity){
                     perimetro_rectangulo ->
                 perimetroTextView.text = perimetro_rectangulo.toString()
             }
 
-            mainViewModel.areaLiveData_rectangulo.observe(this@RectanguloActivity){
+            rectanguloViewModel.areaLiveData_rectangulo.observe(this@RectanguloActivity){
                     area_rectangulo ->
                 areaTextView.text = area_rectangulo.toString()
             }
@@ -32,7 +32,7 @@ class RectanguloActivity : AppCompatActivity() {
                 val width = widthEditText.text.toString()
                 val height = heightEditText.text.toString()
 
-                mainViewModel.getResult(width, height)
+                rectanguloViewModel.getResult(width, height)
             }
         }
     }
