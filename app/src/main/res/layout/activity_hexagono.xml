@@ -79,7 +79,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <EditText
-        android:id="@+id/width_editText"
+        android:id="@+id/apothem_editText"
         android:layout_width="@dimen/m_apothem_width_hexagono"
         android:layout_height="@dimen/m_apothem_length_hexagono"
         android:layout_marginTop="@dimen/m_apothem_marginUP_hexagono"
@@ -95,10 +95,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoWidth_textView" />
+        app:layout_constraintTop_toBottomOf="@+id/infoApothem_textView" />
 
     <EditText
-        android:id="@+id/height_editText"
+        android:id="@+id/length_editText"
         android:layout_width="@dimen/m_length_width_hexagono"
         android:layout_height="@dimen/m_length_height_hexagono"
         android:layout_marginTop="@dimen/m_length_marginUP_hexagono"
@@ -114,10 +114,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoHeight_textView" />
+        app:layout_constraintTop_toBottomOf="@+id/infoLength_textView" />
 
     <TextView
-        android:id="@+id/infoWidth_textView"
+        android:id="@+id/infoApothem_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/m_infoApothem_marginUP_hexagono"
@@ -133,7 +133,7 @@
         app:layout_constraintTop_toBottomOf="@+id/image_imageView_hexagono" />
 
     <TextView
-        android:id="@+id/infoHeight_textView"
+        android:id="@+id/infoLength_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/m_infoLength_marginUP_hexagono"
@@ -146,7 +146,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/width_editText" />
+        app:layout_constraintTop_toBottomOf="@+id/apothem_editText" />
 
     <TextView
         android:id="@+id/infoPerimetro_textView"
@@ -162,7 +162,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/height_editText" />
+        app:layout_constraintTop_toBottomOf="@+id/length_editText" />
 
     <TextView
         android:id="@+id/perimetro_textView"
