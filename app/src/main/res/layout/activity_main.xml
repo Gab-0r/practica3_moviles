@@ -14,9 +14,9 @@
         android:text="triángulo"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/pentagono_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button5" />
+        app:layout_constraintTop_toTopOf="@+id/pentagono_button" />
 
     <Button
         android:id="@+id/button6"
@@ -27,17 +27,16 @@
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button5" />
+        app:layout_constraintTop_toTopOf="@+id/pentagono_button" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/pentagono_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:backgroundTint="#FF5D4037"
-        android:text="Pentágono"
+        android:text="@string/pentagono_button_text"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/button6"
@@ -76,16 +75,16 @@
         android:text="Circulo"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/pentagono_button"
+        app:layout_constraintEnd_toStartOf="@+id/rectangulo_button"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/pentagono_button"
+        android:id="@+id/rectangulo_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5D4037"
-        android:text="@string/pentagono_button_text"
+        android:text="Rentangulo"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -2,8 +2,13 @@ package com.example.practica3_moviles.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
+import com.example.practica3_moviles.R
 import com.example.practica3_moviles.databinding.ActivityPentagonoBinding
+import java.util.*
+import kotlin.concurrent.timerTask
 
 class PentagonoActivity : AppCompatActivity() {
     private lateinit var pentagonoBinding: ActivityPentagonoBinding
@@ -28,12 +33,30 @@ class PentagonoActivity : AppCompatActivity() {
                 areaTextView.text = area_pentagono.toString()
             }
 
+            pentagonoViewModel.isEmptyApothemLiveData_pentagono.observe(this@PentagonoActivity){
+                showWarning(apothemEditText)
+            }
+
+            pentagonoViewModel.isEmptyLengthLiveData_pentagono.observe(this@PentagonoActivity){
+                showWarning(lengthEditText)
+            }
+
             operateButton.setOnClickListener {
-                val width = widthEditText.text.toString()
-                val height = heightEditText.text.toString()
+                val width = apothemEditText.text.toString()
+                val height = lengthEditText.text.toString()
 
                 pentagonoViewModel.getResult(width, height)
             }
         }
+    }
+    private fun showWarning(view: EditText){
+        val timer = Timer()
+        view.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.Red_pentagono))
+        timer.schedule(
+            timerTask {
+                view.setBackgroundResource(R.drawable.input_pentagono)
+            }
+            ,1000
+        )
     }
 }
