@@ -12,14 +12,14 @@ import com.example.practica3_moviles.databinding.ActivityMainCirculoBinding
 
 class MainActivity_circulo : AppCompatActivity() {
     private lateinit var mainBinding: ActivityMainCirculoBinding
-    private lateinit var mainViewModel: MainViewModel
+    private lateinit var mainViewModel: CirculoViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainBinding = ActivityMainCirculoBinding.inflate(layoutInflater)
         val view = mainBinding.root
         setContentView(view)
 
-        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        mainViewModel = ViewModelProvider(this)[CirculoViewModel::class.java]
         mainViewModel.operation.observe(this) { curr ->
             mainBinding.textOperationField.text = curr
         }

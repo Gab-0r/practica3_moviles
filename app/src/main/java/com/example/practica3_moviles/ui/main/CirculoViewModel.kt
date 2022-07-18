@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import java.text.DecimalFormat
 import kotlin.math.PI
 
-class MainViewModel: ViewModel() {
+class CirculoViewModel: ViewModel() {
     val dec= DecimalFormat("###,###,###,###,###,###,###.##")
     private val _operation : MutableLiveData<String> = MutableLiveData()
     val operation : LiveData<String> = _operation
