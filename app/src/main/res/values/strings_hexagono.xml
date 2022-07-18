@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TEXT-->
+    <string name="m_title_text_hexagono">Area y Perimetro Hexagono</string>
+    <string name="m_infoApothem_text_hexagono">Apotema</string>
+    <string name="m_infoLength_text_hexagono">Largo</string>
+    <string name="m_operate_text_hexagono">Operar</string>
+    <string name="m_infoPerimetro_text_hexagono">Perimetro</string>
+    <string name="m_infoArea_text_hexagono">Área</string>
+    <string name="m_image_text_hexagono">Imagen</string>
+    <!--HINT-->
+    <string name="m_apothem_hint_hexagono">Ingrese Apotema</string>
+    <string name="m_length_hint_hexagono">Ingrese Largo</string>
+</resources>

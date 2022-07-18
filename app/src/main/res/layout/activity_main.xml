@@ -76,16 +76,16 @@
         android:text="Circulo"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/pentagono_button"
+        app:layout_constraintEnd_toStartOf="@+id/hexagono_button"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/pentagono_button"
+        android:id="@+id/hexagono_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5D4037"
-        android:text="@string/pentagono_button_text"
+        android:text="@string/hexagono_button_text"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"

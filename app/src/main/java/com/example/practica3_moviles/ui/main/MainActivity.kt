@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         with(mainBinding) {
-            pentagonoButton.setOnClickListener {
-                val pentagonoIntent = Intent(this@MainActivity, PentagonoActivity::class.java)
-                startActivity(pentagonoIntent)
+            hexagonoButton.setOnClickListener {
+                val hexagonoIntent = Intent(this@MainActivity, HexagonoActivity::class.java)
+                startActivity(hexagonoIntent)
             }
         }
     }

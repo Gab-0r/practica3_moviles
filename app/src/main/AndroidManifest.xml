@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Practica3_moviles"
         tools:targetApi="31">
         <activity
-            android:name=".ui.main.PentagonoActivity"
+            android:name=".ui.main.HexagonoActivity"
             android:exported="false" />
         <activity
             android:name=".ui.splash.SplashActivity"

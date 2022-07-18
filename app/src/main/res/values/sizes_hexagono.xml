@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TEXT-->
+    <dimen name="info_text_hexagono">16sp</dimen>
+    <dimen name="input_text_hexagono">18sp</dimen>
+    <dimen name="m_title_text_hexagono">@dimen/info_text_hexagono</dimen>
+    <dimen name="m_infoApothem_text_hexagono">@dimen/info_text_hexagono</dimen>
+    <dimen name="m_infoLength_text_hexagono">@dimen/info_text_hexagono</dimen>
+    <dimen name="m_apothem_text_hexagono">@dimen/input_text_hexagono</dimen>
+    <dimen name="m_length_text_hexagono">@dimen/input_text_hexagono</dimen>
+    <dimen name="m_operate_text_hexagono">@dimen/input_text_hexagono</dimen>
+    <dimen name="m_infoPerimetro_text_hexagono">@dimen/info_text_hexagono</dimen>
+    <dimen name="m_infoArea_text_hexagono">@dimen/info_text_hexagono</dimen>
+    <dimen name="m_perimetro_text_hexagono">@dimen/input_text_hexagono</dimen>
+    <dimen name="m_area_text_hexagono">@dimen/input_text_hexagono</dimen>
+    <!--HEIGHT-->
+    <dimen name="inputNumber_height_hexagono">48dp</dimen>
+    <dimen name="m_image_height_hexagono">200dp</dimen>
+    <dimen name="m_apothem_length_hexagono">@dimen/inputNumber_height_hexagono</dimen>
+    <dimen name="m_length_height_hexagono">@dimen/inputNumber_height_hexagono</dimen>
+    <dimen name="m_perimetro_height_hexagono">@dimen/inputNumber_height_hexagono</dimen>
+    <dimen name="m_area_height_hexagono">@dimen/inputNumber_height_hexagono</dimen>
+    <!--WIDTH-->
+    <dimen name="inputNumber_width_hexagono">200dp</dimen>
+    <dimen name="m_image_width_hexagono">300dp</dimen>
+    <dimen name="m_apothem_width_hexagono">@dimen/inputNumber_width_hexagono</dimen>
+    <dimen name="m_length_width_hexagono">@dimen/inputNumber_width_hexagono</dimen>
+    <dimen name="m_perimetro_width_hexagono">@dimen/inputNumber_width_hexagono</dimen>
+    <dimen name="m_area_width_hexagono">@dimen/inputNumber_width_hexagono</dimen>
+    <!--MARGINS-->
+    <dimen name="smallSeperation_marginUP_hexagono">20dp</dimen>
+    <dimen name="closeSeperation_marginUP_hexagono">0dp</dimen>
+    <dimen name="m_image_marginUP_hexagono">0dp</dimen>
+    <dimen name="m_title_marginUp_hexagono">32dp</dimen>
+    <dimen name="m_infoApothem_marginUP_hexagono">@dimen/smallSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_infoLength_marginUP_hexagono">@dimen/smallSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_apothem_marginUP_hexagono">@dimen/closeSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_length_marginUP_hexagono">@dimen/closeSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_infoPerimetro_marginUP_hexagono">@dimen/smallSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_infoArea_marginUP_hexagono">@dimen/smallSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_perimetro_marginUP_hexagono">@dimen/closeSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_area_marginUP_hexagono">@dimen/closeSeperation_marginUP_hexagono</dimen>
+    <dimen name="m_operate_marginUP_hexagono">@dimen/smallSeperation_marginUP_hexagono</dimen>
+</resources>
