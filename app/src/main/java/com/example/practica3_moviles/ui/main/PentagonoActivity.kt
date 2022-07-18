@@ -42,10 +42,10 @@ class PentagonoActivity : AppCompatActivity() {
             }
 
             operateButton.setOnClickListener {
-                val width = apothemEditText.text.toString()
-                val height = lengthEditText.text.toString()
+                val apothem = apothemEditText.text.toString()
+                val length = lengthEditText.text.toString()
 
-                pentagonoViewModel.getResult(width, height)
+                pentagonoViewModel.getResult(apothem, length)
             }
         }
     }
