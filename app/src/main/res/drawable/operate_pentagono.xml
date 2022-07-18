@@ -6,20 +6,20 @@
                 android:width="3dp"
                 android:color="@color/app_colorPrimary" />
             <corners android:radius="4dp" />
-            <solid android:color="@color/m_operate_bg_releasedGradientDown_rectangulo" />
+            <solid android:color="@color/m_operate_bg_releasedGradientDown_pentagono" />
         </shape>
     </item>
     <item>
         <shape  android:shape="rectangle">
             <stroke
                 android:width="3dp"
-                android:color="@color/m_operate_stroke_released_rectangulo" />
+                android:color="@color/m_operate_stroke_released_pentagono" />
             <corners
                 android:radius="4dp" />
             <gradient android:angle="90"
-                android:startColor="@color/m_operate_bg_releasedGradientUp_rectangulo"
-                android:centerColor="@color/m_operate_bg_releasedGradientMiddle_rectangulo"
-                android:endColor="@color/m_operate_bg_releasedGradientDown_rectangulo" />
+                android:startColor="@color/m_operate_bg_releasedGradientUp_pentagono"
+                android:centerColor="@color/m_operate_bg_releasedGradientMiddle_pentagono"
+                android:endColor="@color/m_operate_bg_releasedGradientDown_pentagono" />
         </shape>
     </item>
 </selector>

@@ -3,7 +3,6 @@ package com.example.practica3_moviles.ui.main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.practica3_moviles.R
 import com.example.practica3_moviles.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         with(mainBinding) {
-            rectanguloButton.setOnClickListener {
-                val rectanguloIntent = Intent(this@MainActivity, RectanguloActivity::class.java)
-                startActivity(rectanguloIntent)
+            pentagonoButton.setOnClickListener {
+                val pentagonoIntent = Intent(this@MainActivity, PentagonoActivity::class.java)
+                startActivity(pentagonoIntent)
             }
         }
     }
