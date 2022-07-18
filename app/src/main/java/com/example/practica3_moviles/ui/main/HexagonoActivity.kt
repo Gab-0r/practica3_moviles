@@ -49,10 +49,10 @@ class HexagonoActivity : AppCompatActivity() {
             }
 
             operateButton.setOnClickListener {
-                val width = apothemEditText.text.toString()
-                val height = lengthEditText.text.toString()
+                val apothem = apothemEditText.text.toString()
+                val length = lengthEditText.text.toString()
 
-                hexagonoViewModel.getResult(width, height)
+                hexagonoViewModel.getResult(apothem, length)
             }
         }
     }
