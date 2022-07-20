@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 
 class ActivityTriangulo : AppCompatActivity() {
 
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: ViewModelTriangulo
     private lateinit var activityBinding: ActivityTrianguloBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +18,7 @@ class ActivityTriangulo : AppCompatActivity() {
         setContentView(view)
 
         //Parte del ViewModel
-        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        viewModel = ViewModelProvider(this)[ViewModelTriangulo::class.java]
 
         viewModel.CalculoTrianguloDone.observe(this){ Data ->
             activityBinding.textViewTrianguloResultado.text = Data// envio el resultado
