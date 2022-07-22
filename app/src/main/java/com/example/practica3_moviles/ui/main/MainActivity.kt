@@ -7,10 +7,7 @@ import com.example.practica3_moviles.R
 import com.example.practica3_moviles.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var mainBinding: ActivityMainBinding
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainBinding = ActivityMainBinding.inflate(layoutInflater)//colocado la actividad principal
@@ -20,6 +17,15 @@ class MainActivity : AppCompatActivity() {
         mainBinding.buttonTriangulo.setOnClickListener {
             irActividadTriangulo()
         }
+
+        mainBinding.buttonCuadrado.setOnClickListener{
+            goToSquare()
+        }
+    }
+
+    private fun goToSquare(){
+        val intent = Intent(this, ActivityCuadrado::class.java)
+        startActivity(intent)
     }
 
     private fun irActividadTriangulo() {// funcion para lanzar la actividad triangulo
@@ -28,4 +34,3 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent) // me voy a ala actividad
     }
 }
-

@@ -35,7 +35,7 @@
         android:text="Pentágono"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/button6"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button_cuadrado"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <ImageView
@@ -50,7 +50,7 @@
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_cuadrado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cuadrado"
@@ -67,7 +67,7 @@
         android:text="Circulo"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button_cuadrado"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
