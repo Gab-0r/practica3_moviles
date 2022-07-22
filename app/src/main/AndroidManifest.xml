@@ -14,9 +14,6 @@
         android:theme="@style/Theme.Practica3_moviles"
         tools:targetApi="31">
         <activity
-            android:name=".ui.main.ActivityCuadrado"
-            android:exported="false" />
-        <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -28,6 +25,12 @@
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="false"></activity>
+        <activity
+            android:name=".ui.main.ActivityTriangulo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.ActivityCuadrado"
+            android:exported="false" />
     </application>
 
 </manifest>
