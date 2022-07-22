@@ -7,7 +7,7 @@ import com.example.practica3_moviles.databinding.ActivityCuadradoBinding
 
 class ActivityCuadrado : AppCompatActivity() {
     private lateinit var cuadradoBinding: ActivityCuadradoBinding
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: CuadradoViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +15,7 @@ class ActivityCuadrado : AppCompatActivity() {
         val view = cuadradoBinding.root
         setContentView(view)
 
-        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        viewModel = ViewModelProvider(this)[CuadradoViewModel::class.java]
 
         viewModel.cuadrado_areaDone.observe(this){
             cuadradoBinding.textViewResultArea.text = "Área del cuadrado: " + it.toString() + " m2"
