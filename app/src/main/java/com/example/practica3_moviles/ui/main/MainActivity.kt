@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         mainBinding.buttonCuadrado.setOnClickListener{
             goToSquare()
         }
+        mainBinding.buttonCirculo.setOnClickListener {
+            irActividadCirculo()
+        }
     }
 
     private fun goToSquare(){
@@ -31,6 +34,11 @@ class MainActivity : AppCompatActivity() {
     private fun irActividadTriangulo() {// funcion para lanzar la actividad triangulo
         val intent =
             Intent(this, ActivityTriangulo::class.java) //a intent le asigno la actividad
+        startActivity(intent) // me voy a ala actividad
+    }
+    private fun irActividadCirculo() {// funcion para lanzar la actividad triangulo
+        val intent =
+            Intent(this, ActivityCirculo::class.java) //a intent le asigno la actividad
         startActivity(intent) // me voy a ala actividad
     }
 }

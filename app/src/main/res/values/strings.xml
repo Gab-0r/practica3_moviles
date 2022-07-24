@@ -16,6 +16,7 @@
     <string name="Resultado_Trinagulo">Resultado</string>
     <string name="Calcular_Triangulo">Calcular</string>
     <string name="Resultado_Triangulo">Resulado</string>
+    <string name="titulocirculo">Área y perímetro del circulo</string>
 
 
 </resources>
