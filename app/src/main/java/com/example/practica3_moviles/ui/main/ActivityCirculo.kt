@@ -10,7 +10,7 @@ import com.example.practica3_moviles.R
 import com.example.practica3_moviles.databinding.ActivityMainBinding
 import com.example.practica3_moviles.databinding.ActivityMainCirculoBinding
 
-class MainActivity_circulo : AppCompatActivity() {
+class ActivityCirculo : AppCompatActivity() {
     private lateinit var mainBinding: ActivityMainCirculoBinding
     private lateinit var mainViewModel: CirculoViewModel
     override fun onCreate(savedInstanceState: Bundle?) {

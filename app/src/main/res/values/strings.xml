@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">practica3_moviles</string>
     <string name="string_titleApp">Calculadora de áreas y perimetros</string>
+    <string name="cuadrado_title">Área y perímetro del cuadrado</string>
+    <string name="string_lado" />
+    <string name="string_ladocuadrado">Valor lado a:</string>
+    <string name="string_cuadradohint">Valor de a en metros</string>
+    <string name="string_cuadradocalc">Calcular</string>
+    <string name="string_empty" />
+
+    <string name="AyP_Triangulo">Area y Perimetro del Triangulo</string>
+    <string name="Lado_a_Triangulo">Valor lado a:</string>
+    <string name="Lado_b_Triangulo">Valor lado b:</string>
+    <string name="Lado_c_Triangulo">Valor lado c:</string>
+    <string name="Lados_Triangulo">Valor</string>
+    <string name="Resultado_Trinagulo">Resultado</string>
+    <string name="Calcular_Triangulo">Calcular</string>
+    <string name="Resultado_Triangulo">Resulado</string>
+    <string name="titulocirculo">Área y perímetro del circulo</string>
+
+
 </resources>
