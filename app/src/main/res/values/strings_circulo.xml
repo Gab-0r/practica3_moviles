@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="circulo">Circulo</string>
+    <string name="radio">Radio</string>
+    <string name="area">Area</string>
+    <string name="perimetro">Perimetro</string>
+    <string-array name="medidas">
+        <item>mm</item>
+        <item>cm</item>
+        <item>m</item>
+
+    </string-array>
+</resources>
