@@ -2,6 +2,7 @@ package com.example.practica3_moviles.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.practica3_moviles.databinding.ActivityTrianguloBinding
 import androidx.lifecycle.ViewModelProvider
 
@@ -22,6 +23,10 @@ class ActivityTriangulo : AppCompatActivity() {
 
         viewModel.CalculoTrianguloDone.observe(this){ Data ->
             activityBinding.textViewTrianguloResultado.text = Data// envio el resultado
+        }
+        viewModel.error.observe(this) { NoData ->
+            val toast = Toast.makeText(this, NoData, Toast.LENGTH_SHORT)
+            toast.show()
         }
 
         activityBinding.buttonTrianguloCalcular.setOnClickListener {
