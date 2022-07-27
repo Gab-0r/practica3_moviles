@@ -15,8 +15,10 @@
     <string name="Lados_Triangulo">Valor</string>
     <string name="Resultado_Triangulo">Resultado</string>
     <string name="Calcular_Triangulo">Calcular</string>
-    
+
     <string name="titulocirculo">Área y perímetro del circulo</string>
 
 
+    <string name="rectangulo_button_text">Rectángulo</string>
+    <string name="m_image_text_splash">imagen</string>
 </resources>

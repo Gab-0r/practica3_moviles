@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.RectanguloActivity">
+
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_title_marginUp_rectangulo"
+        android:background="@drawable/info_rectangulo"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/m_title_text_rectangulo"
+        android:textColor="@color/m_title_text_rectangulo"
+        android:textSize="@dimen/m_title_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoArea_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoArea_marginUP_rectangulo"
+        android:background="@drawable/info_rectangulo"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/m_infoArea_text_rectangulo"
+        android:textColor="@color/m_infoArea_text_rectangulo"
+        android:textSize="@dimen/m_infoArea_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perimetro_textView" />
+
+    <TextView
+        android:id="@+id/area_textView"
+        android:layout_width="@dimen/m_area_width_rectangulo"
+        android:layout_height="@dimen/m_area_height_rectangulo"
+        android:layout_marginTop="@dimen/m_area_marginUP_rectangulo"
+        android:background="@drawable/input_rectangulo"
+        android:gravity="center"
+        android:textColor="@color/m_area_text_rectangulo"
+        android:textSize="@dimen/m_area_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoArea_textView" />
+
+    <Button
+        android:id="@+id/operate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_operate_marginUP_rectangulo"
+        android:background="@drawable/operate_rectangulo"
+        android:text="@string/m_operate_text_rectangulo"
+        android:textColor="@color/m_operate_text_rectangulo"
+        android:textSize="@dimen/m_operate_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/area_textView" />
+
+    <ImageView
+        android:id="@+id/image_imageView_rectangulo"
+        android:layout_width="@dimen/m_image_width_rectangulo"
+        android:layout_height="@dimen/m_image_height_rectangulo"
+        android:layout_marginTop="@dimen/m_image_marginUP_rectangulo"
+        android:contentDescription="@string/m_image_text_rectangulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_textView"
+        app:srcCompat="@mipmap/image_rectangulo"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/width_editText"
+        android:layout_width="@dimen/m_width_width_rectangulo"
+        android:layout_height="@dimen/m_width_height_rectangulo"
+        android:layout_marginTop="@dimen/m_width_marginUP_rectangulo"
+        android:background="@drawable/input_rectangulo"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/m_width_hint_rectangulo"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColor="@color/m_width_text_rectangulo"
+        android:textColorHint="@color/m_width_hint_rectangulo"
+        android:textSize="@dimen/m_width_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoWidth_textView" />
+
+    <EditText
+        android:id="@+id/height_editText"
+        android:layout_width="@dimen/m_height_width_rectangulo"
+        android:layout_height="@dimen/m_height_height_rectangulo"
+        android:layout_marginTop="@dimen/m_height_marginUP_rectangulo"
+        android:background="@drawable/input_rectangulo"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/m_height_hint_rectangulo"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColor="@color/m_height_text_rectangulo"
+        android:textColorHint="@color/m_height_hint_rectangulo"
+        android:textSize="@dimen/m_height_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoHeight_textView" />
+
+    <TextView
+        android:id="@+id/infoWidth_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoWidth_marginUP_rectangulo"
+        android:background="@drawable/info_rectangulo"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/m_infoWidth_text_rectangulo"
+        android:textColor="@color/m_infoWidth_text_rectangulo"
+        android:textSize="@dimen/m_infoWidth_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_imageView_rectangulo" />
+
+    <TextView
+        android:id="@+id/infoHeight_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoHeight_marginUP_rectangulo"
+        android:background="@drawable/info_rectangulo"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/m_infoHeight_text_rectangulo"
+        android:textColor="@color/m_infoHeight_text_rectangulo"
+        android:textSize="@dimen/m_infoHeight_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/width_editText" />
+
+    <TextView
+        android:id="@+id/infoPerimetro_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_infoPerimetro_marginUP_rectangulo"
+        android:background="@drawable/info_rectangulo"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/m_infoPerimetro_text_rectangulo"
+        android:textColor="@color/m_infoPerimetro_text_rectangulo"
+        android:textSize="@dimen/m_infoPerimetro_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/height_editText" />
+
+    <TextView
+        android:id="@+id/perimetro_textView"
+        android:layout_width="@dimen/m_perimetro_width_rectangulo"
+        android:layout_height="@dimen/m_perimetro_height_rectangulo"
+        android:layout_marginTop="@dimen/m_perimetro_marginUP_rectangulo"
+        android:background="@drawable/input_rectangulo"
+        android:gravity="center"
+        android:textColor="@color/m_perimetro_text_rectangulo"
+        android:textSize="@dimen/m_perimetro_text_rectangulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoPerimetro_textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

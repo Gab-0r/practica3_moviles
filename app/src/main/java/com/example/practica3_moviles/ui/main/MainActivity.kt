@@ -24,6 +24,13 @@ class MainActivity : AppCompatActivity() {
         mainBinding.buttonCirculo.setOnClickListener {
             irActividadCirculo()
         }
+
+        with(mainBinding) {
+            rectanguloButton.setOnClickListener {
+                val rectanguloIntent = Intent(this@MainActivity, RectanguloActivity::class.java)
+                startActivity(rectanguloIntent)
+            }
+        }
     }
 
     private fun goToSquare(){
