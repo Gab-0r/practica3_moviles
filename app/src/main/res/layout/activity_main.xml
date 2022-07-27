@@ -7,7 +7,7 @@
     tools:context=".ui.main.MainActivity">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_triangulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5D4037"
@@ -27,8 +27,7 @@
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.612"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button_circulo"
         app:layout_constraintTop_toTopOf="@+id/button5" />
 
     <Button
@@ -41,8 +40,8 @@
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/button6"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/button_cuadrado"
+        app:layout_constraintTop_toBottomOf="@+id/button_circulo" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,19 +55,19 @@
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_cuadrado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5D4037"
         android:text="Cuadrado"
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button_circulo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2" />
+        app:layout_constraintTop_toTopOf="@+id/button_circulo" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_circulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -77,7 +76,7 @@
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/rectangulo_button"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button_cuadrado"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
@@ -89,8 +88,8 @@
         android:textColor="#FFFFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/button_circulo"
+        app:layout_constraintTop_toTopOf="@+id/button_circulo" />
 
     <TextView
         android:id="@+id/textView5"
